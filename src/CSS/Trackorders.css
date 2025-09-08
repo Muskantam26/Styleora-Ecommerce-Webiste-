@@ -1,0 +1,79 @@
+/* Orders.css */
+
+body {
+  background-color: #ddd7d2;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  color: #2e2e2e;
+}
+
+.orders-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.orders-container h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #2e2e2e;
+  font-style: italic;
+}
+
+.order-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-box h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #2e2e2e;
+}
+
+.order-box p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.order-box h4 {
+  margin-top: 15px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.item-box {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-box img {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #fff;
+}
+
+.download-btn {
+  margin-top: 12px;
+  padding: 10px 16px;
+  background-color: #fff;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #2e2e2e;
+  color: #fff;
+}

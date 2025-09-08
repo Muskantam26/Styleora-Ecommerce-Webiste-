@@ -1,0 +1,50 @@
+/* Navbar.css - matches #b8aeae & #ddd7d2 theme */
+
+.navbar {
+  background-color: #b8aeae !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #2e2e2e !important;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: #2e2e2e !important;
+  font-style: italic;
+  margin-left: 15px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #000 !important;
+  border-bottom: 2px solid #2e2e2e;
+}
+
+.dropdown-menu {
+  background-color: #b8aeae;
+  border: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #2e2e2e;
+  font-style: italic;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd7d2;
+  color: #000;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+

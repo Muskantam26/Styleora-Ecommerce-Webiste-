@@ -1,0 +1,84 @@
+.admin-orders-container {
+  padding: 20px;
+  background-color: #ddd7d2;
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2e2e;
+}
+
+.admin-orders-container h2 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.order-card {
+  border: 1px solid #fff;
+  background-color: #b8aeae;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+}
+
+.order-card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.order-card select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #2e2e2e;
+  font-size: 14px;
+}
+
+.order-card h4 {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.order-card button {
+  margin-top: 15px;
+  padding: 10px 14px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.order-card button:hover {
+  opacity: 0.9;
+}
+
+/* Pagination Buttons */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  color: #2e2e2e;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #b8aeae;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #b8aeae;
+}
