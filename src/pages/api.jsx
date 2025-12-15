@@ -1,8 +1,8 @@
-// api.js
 import axios from 'axios';
 
+// Use your Render backend URL here
 const API = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://styleora-server-5.onrender.com', // <-- replace localhost
 });
 
 //  Add request interceptor once!
